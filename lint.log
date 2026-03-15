@@ -1,0 +1,18 @@
+
+./app/(dashboard)/ai-advice/page.tsx
+43:106  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+
+./app/(dashboard)/budgets/page.tsx
+6:52  Error: 'CardDescription' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./app/api/ai/advice/route.ts
+8:28  Error: 'request' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./app/page.tsx
+84:61  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+84:108  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+
+./components/ui/input.tsx
+4:18  Error: An interface declaring no members is equivalent to its supertype.  @typescript-eslint/no-empty-object-type
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules

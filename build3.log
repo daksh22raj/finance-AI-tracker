@@ -1,0 +1,75 @@
+
+> ai-finance-tracker@0.1.0 build
+> next build
+
+   ▲ Next.js 15.2.1
+
+   Creating an optimized production build ...
+Failed to compile.
+
+./app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./app/globals.css
+SyntaxError: Unexpected token ':'
+    at compileSourceTextModule (node:internal/modules/esm/utils:346:16)
+    at ModuleLoader.moduleStrategy (node:internal/modules/esm/translators:107:18)
+    at #translate (node:internal/modules/esm/loader:546:20)
+    at afterLoad (node:internal/modules/esm/loader:596:29)
+    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:601:12)
+    at #createModuleJob (node:internal/modules/esm/loader:624:36)
+    at #getJobFromResolveResult (node:internal/modules/esm/loader:343:34)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:311:41)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:664:25)
+
+Import trace for requested module:
+./app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./app/globals.css
+./app/globals.css
+
+./app/globals.css
+SyntaxError: Unexpected token ':'
+    at compileSourceTextModule (node:internal/modules/esm/utils:346:16)
+    at ModuleLoader.moduleStrategy (node:internal/modules/esm/translators:107:18)
+    at #translate (node:internal/modules/esm/loader:546:20)
+    at afterLoad (node:internal/modules/esm/loader:596:29)
+    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:601:12)
+    at #createModuleJob (node:internal/modules/esm/loader:624:36)
+    at #getJobFromResolveResult (node:internal/modules/esm/loader:343:34)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:311:41)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:664:25)
+    at tryRunOrWebpackError (C:\Users\HP\Desktop\NextJs-AiFT\node_modules\next\dist\compiled\webpack\bundle5.js:29:316142)
+    at __webpack_require_module__ (C:\Users\HP\Desktop\NextJs-AiFT\node_modules\next\dist\compiled\webpack\bundle5.js:29:131548)
+    at __nested_webpack_require_161494__ (C:\Users\HP\Desktop\NextJs-AiFT\node_modules\next\dist\compiled\webpack\bundle5.js:29:130983)
+    at C:\Users\HP\Desktop\NextJs-AiFT\node_modules\next\dist\compiled\webpack\bundle5.js:29:131840
+    at symbolIterator (C:\Users\HP\Desktop\NextJs-AiFT\node_modules\next\dist\compiled\neo-async\async.js:1:14444)
+    at done (C:\Users\HP\Desktop\NextJs-AiFT\node_modules\next\dist\compiled\neo-async\async.js:1:14824)
+    at Hook.eval [as callAsync] (eval at create (C:\Users\HP\Desktop\NextJs-AiFT\node_modules\next\dist\compiled\webpack\bundle5.js:14:9224), <anonymous>:15:1)
+    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (C:\Users\HP\Desktop\NextJs-AiFT\node_modules\next\dist\compiled\webpack\bundle5.js:14:6378)
+    at C:\Users\HP\Desktop\NextJs-AiFT\node_modules\next\dist\compiled\webpack\bundle5.js:29:130703
+    at symbolIterator (C:\Users\HP\Desktop\NextJs-AiFT\node_modules\next\dist\compiled\neo-async\async.js:1:14402)
+-- inner error --
+SyntaxError: Unexpected token ':'
+    at compileSourceTextModule (node:internal/modules/esm/utils:346:16)
+    at ModuleLoader.moduleStrategy (node:internal/modules/esm/translators:107:18)
+    at #translate (node:internal/modules/esm/loader:546:20)
+    at afterLoad (node:internal/modules/esm/loader:596:29)
+    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:601:12)
+    at #createModuleJob (node:internal/modules/esm/loader:624:36)
+    at #getJobFromResolveResult (node:internal/modules/esm/loader:343:34)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:311:41)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:664:25)
+    at Object.<anonymous> (C:\Users\HP\Desktop\NextJs-AiFT\node_modules\next\dist\build\webpack\loaders\css-loader\src\index.js??ruleSet[1].rules[13].oneOf[10].use[2]!C:\Users\HP\Desktop\NextJs-AiFT\node_modules\next\dist\build\webpack\loaders\postcss-loader\src\index.js??ruleSet[1].rules[13].oneOf[10].use[3]!C:\Users\HP\Desktop\NextJs-AiFT\app\globals.css:1:7)
+    at C:\Users\HP\Desktop\NextJs-AiFT\node_modules\next\dist\compiled\webpack\bundle5.js:29:962742
+    at Hook.eval [as call] (eval at create (C:\Users\HP\Desktop\NextJs-AiFT\node_modules\next\dist\compiled\webpack\bundle5.js:14:9002), <anonymous>:7:1)
+    at Hook.CALL_DELEGATE [as _call] (C:\Users\HP\Desktop\NextJs-AiFT\node_modules\next\dist\compiled\webpack\bundle5.js:14:6272)
+    at C:\Users\HP\Desktop\NextJs-AiFT\node_modules\next\dist\compiled\webpack\bundle5.js:29:131581
+    at tryRunOrWebpackError (C:\Users\HP\Desktop\NextJs-AiFT\node_modules\next\dist\compiled\webpack\bundle5.js:29:316096)
+    at __webpack_require_module__ (C:\Users\HP\Desktop\NextJs-AiFT\node_modules\next\dist\compiled\webpack\bundle5.js:29:131548)
+    at __nested_webpack_require_161494__ (C:\Users\HP\Desktop\NextJs-AiFT\node_modules\next\dist\compiled\webpack\bundle5.js:29:130983)
+    at C:\Users\HP\Desktop\NextJs-AiFT\node_modules\next\dist\compiled\webpack\bundle5.js:29:131840
+    at symbolIterator (C:\Users\HP\Desktop\NextJs-AiFT\node_modules\next\dist\compiled\neo-async\async.js:1:14444)
+
+Generated code for C:\Users\HP\Desktop\NextJs-AiFT\node_modules\next\dist\build\webpack\loaders\css-loader\src\index.js??ruleSet[1].rules[13].oneOf[10].use[2]!C:\Users\HP\Desktop\NextJs-AiFT\node_modules\next\dist\build\webpack\loaders\postcss-loader\src\index.js??ruleSet[1].rules[13].oneOf[10].use[3]!C:\Users\HP\Desktop\NextJs-AiFT\app\globals.css
+
+Import trace for requested module:
+./app/globals.css
+
+
+> Build failed because of webpack errors

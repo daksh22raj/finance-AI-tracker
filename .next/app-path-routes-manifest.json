@@ -1,0 +1,18 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/api/ai/advice/route": "/api/ai/advice",
+  "/api/ai/scan-receipt/route": "/api/ai/scan-receipt",
+  "/api/budgets/route": "/api/budgets",
+  "/api/transactions/[id]/route": "/api/transactions/[id]",
+  "/api/reports/route": "/api/reports",
+  "/api/transactions/route": "/api/transactions",
+  "/(auth)/sign-up/[[...sign-up]]/page": "/sign-up/[[...sign-up]]",
+  "/(auth)/sign-in/[[...sign-in]]/page": "/sign-in/[[...sign-in]]",
+  "/page": "/",
+  "/(dashboard)/ai-advice/page": "/ai-advice",
+  "/(dashboard)/receipts/page": "/receipts",
+  "/(dashboard)/budgets/page": "/budgets",
+  "/(dashboard)/dashboard/page": "/dashboard",
+  "/(dashboard)/transactions/page": "/transactions",
+  "/(dashboard)/reports/page": "/reports"
+}

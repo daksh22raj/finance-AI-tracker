@@ -1,0 +1,3 @@
+{
+  "/(dashboard)/ai-advice/page": "app/(dashboard)/ai-advice/page.js"
+}
