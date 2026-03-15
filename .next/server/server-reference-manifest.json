@@ -1,0 +1,552 @@
+{
+  "node": {
+    "00ff5d59c0acfbf8d6ddf73a10aa9f07e6d6a29171": {
+      "workers": {
+        "app/(auth)/sign-in/[[...sign-in]]/page": {
+          "moduleId": 89074,
+          "async": false,
+          "exportedName": "detectKeylessEnvDriftAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/(auth)/sign-up/[[...sign-up]]/page": {
+          "moduleId": 22427,
+          "async": false,
+          "exportedName": "detectKeylessEnvDriftAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/(dashboard)/ai-advice/page": {
+          "moduleId": 19782,
+          "async": false,
+          "exportedName": "detectKeylessEnvDriftAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/(dashboard)/budgets/page": {
+          "moduleId": 25562,
+          "async": false,
+          "exportedName": "detectKeylessEnvDriftAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/(dashboard)/dashboard/page": {
+          "moduleId": 18082,
+          "async": false,
+          "exportedName": "detectKeylessEnvDriftAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/(dashboard)/receipts/page": {
+          "moduleId": 63725,
+          "async": false,
+          "exportedName": "detectKeylessEnvDriftAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/(dashboard)/reports/page": {
+          "moduleId": 25338,
+          "async": false,
+          "exportedName": "detectKeylessEnvDriftAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/(dashboard)/transactions/page": {
+          "moduleId": 95022,
+          "async": false,
+          "exportedName": "detectKeylessEnvDriftAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/_not-found/page": {
+          "moduleId": 54725,
+          "async": false,
+          "exportedName": "detectKeylessEnvDriftAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/page": {
+          "moduleId": 23773,
+          "async": false,
+          "exportedName": "detectKeylessEnvDriftAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        }
+      },
+      "layer": {
+        "app/(auth)/sign-in/[[...sign-in]]/page": "rsc",
+        "app/(auth)/sign-up/[[...sign-up]]/page": "rsc",
+        "app/(dashboard)/ai-advice/page": "rsc",
+        "app/(dashboard)/budgets/page": "rsc",
+        "app/(dashboard)/dashboard/page": "rsc",
+        "app/(dashboard)/receipts/page": "rsc",
+        "app/(dashboard)/reports/page": "rsc",
+        "app/(dashboard)/transactions/page": "rsc",
+        "app/_not-found/page": "rsc",
+        "app/page": "rsc"
+      },
+      "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js",
+      "exportedName": "detectKeylessEnvDriftAction"
+    },
+    "00b489320952dbdd40490d96731e1ed77489a4c34f": {
+      "workers": {
+        "app/(auth)/sign-in/[[...sign-in]]/page": {
+          "moduleId": 89074,
+          "async": false,
+          "exportedName": "invalidateCacheAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
+        },
+        "app/(auth)/sign-up/[[...sign-up]]/page": {
+          "moduleId": 22427,
+          "async": false,
+          "exportedName": "invalidateCacheAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
+        },
+        "app/(dashboard)/ai-advice/page": {
+          "moduleId": 19782,
+          "async": false,
+          "exportedName": "invalidateCacheAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
+        },
+        "app/(dashboard)/budgets/page": {
+          "moduleId": 25562,
+          "async": false,
+          "exportedName": "invalidateCacheAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
+        },
+        "app/(dashboard)/dashboard/page": {
+          "moduleId": 18082,
+          "async": false,
+          "exportedName": "invalidateCacheAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
+        },
+        "app/(dashboard)/receipts/page": {
+          "moduleId": 63725,
+          "async": false,
+          "exportedName": "invalidateCacheAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
+        },
+        "app/(dashboard)/reports/page": {
+          "moduleId": 25338,
+          "async": false,
+          "exportedName": "invalidateCacheAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
+        },
+        "app/(dashboard)/transactions/page": {
+          "moduleId": 95022,
+          "async": false,
+          "exportedName": "invalidateCacheAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
+        },
+        "app/_not-found/page": {
+          "moduleId": 54725,
+          "async": false,
+          "exportedName": "invalidateCacheAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
+        },
+        "app/page": {
+          "moduleId": 23773,
+          "async": false,
+          "exportedName": "invalidateCacheAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
+        }
+      },
+      "layer": {
+        "app/(auth)/sign-in/[[...sign-in]]/page": "action-browser",
+        "app/(auth)/sign-up/[[...sign-up]]/page": "action-browser",
+        "app/(dashboard)/ai-advice/page": "action-browser",
+        "app/(dashboard)/budgets/page": "action-browser",
+        "app/(dashboard)/dashboard/page": "action-browser",
+        "app/(dashboard)/receipts/page": "action-browser",
+        "app/(dashboard)/reports/page": "action-browser",
+        "app/(dashboard)/transactions/page": "action-browser",
+        "app/_not-found/page": "action-browser",
+        "app/page": "action-browser"
+      },
+      "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js",
+      "exportedName": "invalidateCacheAction"
+    },
+    "00f1043d381d60222d9f757e14dcbb56ed2fb605c2": {
+      "workers": {
+        "app/(auth)/sign-in/[[...sign-in]]/page": {
+          "moduleId": 89074,
+          "async": false,
+          "exportedName": "createOrReadKeylessAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/(auth)/sign-up/[[...sign-up]]/page": {
+          "moduleId": 22427,
+          "async": false,
+          "exportedName": "createOrReadKeylessAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/(dashboard)/ai-advice/page": {
+          "moduleId": 19782,
+          "async": false,
+          "exportedName": "createOrReadKeylessAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/(dashboard)/budgets/page": {
+          "moduleId": 25562,
+          "async": false,
+          "exportedName": "createOrReadKeylessAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/(dashboard)/dashboard/page": {
+          "moduleId": 18082,
+          "async": false,
+          "exportedName": "createOrReadKeylessAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/(dashboard)/receipts/page": {
+          "moduleId": 63725,
+          "async": false,
+          "exportedName": "createOrReadKeylessAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/(dashboard)/reports/page": {
+          "moduleId": 25338,
+          "async": false,
+          "exportedName": "createOrReadKeylessAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/(dashboard)/transactions/page": {
+          "moduleId": 95022,
+          "async": false,
+          "exportedName": "createOrReadKeylessAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/_not-found/page": {
+          "moduleId": 54725,
+          "async": false,
+          "exportedName": "createOrReadKeylessAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/page": {
+          "moduleId": 23773,
+          "async": false,
+          "exportedName": "createOrReadKeylessAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        }
+      },
+      "layer": {
+        "app/(auth)/sign-in/[[...sign-in]]/page": "rsc",
+        "app/(auth)/sign-up/[[...sign-up]]/page": "rsc",
+        "app/(dashboard)/ai-advice/page": "rsc",
+        "app/(dashboard)/budgets/page": "rsc",
+        "app/(dashboard)/dashboard/page": "rsc",
+        "app/(dashboard)/receipts/page": "rsc",
+        "app/(dashboard)/reports/page": "rsc",
+        "app/(dashboard)/transactions/page": "rsc",
+        "app/_not-found/page": "rsc",
+        "app/page": "rsc"
+      },
+      "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js",
+      "exportedName": "createOrReadKeylessAction"
+    },
+    "00b279c4c03cbd1827ed1dbe9147b87deea2c1b9b3": {
+      "workers": {
+        "app/(auth)/sign-in/[[...sign-in]]/page": {
+          "moduleId": 89074,
+          "async": false,
+          "exportedName": "collectKeylessMetadata",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+        },
+        "app/(auth)/sign-up/[[...sign-up]]/page": {
+          "moduleId": 22427,
+          "async": false,
+          "exportedName": "collectKeylessMetadata",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+        },
+        "app/(dashboard)/ai-advice/page": {
+          "moduleId": 19782,
+          "async": false,
+          "exportedName": "collectKeylessMetadata",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+        },
+        "app/(dashboard)/budgets/page": {
+          "moduleId": 25562,
+          "async": false,
+          "exportedName": "collectKeylessMetadata",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+        },
+        "app/(dashboard)/dashboard/page": {
+          "moduleId": 18082,
+          "async": false,
+          "exportedName": "collectKeylessMetadata",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+        },
+        "app/(dashboard)/receipts/page": {
+          "moduleId": 63725,
+          "async": false,
+          "exportedName": "collectKeylessMetadata",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+        },
+        "app/(dashboard)/reports/page": {
+          "moduleId": 25338,
+          "async": false,
+          "exportedName": "collectKeylessMetadata",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+        },
+        "app/(dashboard)/transactions/page": {
+          "moduleId": 95022,
+          "async": false,
+          "exportedName": "collectKeylessMetadata",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+        },
+        "app/_not-found/page": {
+          "moduleId": 54725,
+          "async": false,
+          "exportedName": "collectKeylessMetadata",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+        },
+        "app/page": {
+          "moduleId": 23773,
+          "async": false,
+          "exportedName": "collectKeylessMetadata",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+        }
+      },
+      "layer": {
+        "app/(auth)/sign-in/[[...sign-in]]/page": "rsc",
+        "app/(auth)/sign-up/[[...sign-up]]/page": "rsc",
+        "app/(dashboard)/ai-advice/page": "rsc",
+        "app/(dashboard)/budgets/page": "rsc",
+        "app/(dashboard)/dashboard/page": "rsc",
+        "app/(dashboard)/receipts/page": "rsc",
+        "app/(dashboard)/reports/page": "rsc",
+        "app/(dashboard)/transactions/page": "rsc",
+        "app/_not-found/page": "rsc",
+        "app/page": "rsc"
+      },
+      "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js",
+      "exportedName": "collectKeylessMetadata"
+    },
+    "4013957f10e63a9d1fea29b6fdc85b14ba7324ba0b": {
+      "workers": {
+        "app/(auth)/sign-in/[[...sign-in]]/page": {
+          "moduleId": 89074,
+          "async": false,
+          "exportedName": "formatMetadataHeaders",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+        },
+        "app/(auth)/sign-up/[[...sign-up]]/page": {
+          "moduleId": 22427,
+          "async": false,
+          "exportedName": "formatMetadataHeaders",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+        },
+        "app/(dashboard)/ai-advice/page": {
+          "moduleId": 19782,
+          "async": false,
+          "exportedName": "formatMetadataHeaders",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+        },
+        "app/(dashboard)/budgets/page": {
+          "moduleId": 25562,
+          "async": false,
+          "exportedName": "formatMetadataHeaders",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+        },
+        "app/(dashboard)/dashboard/page": {
+          "moduleId": 18082,
+          "async": false,
+          "exportedName": "formatMetadataHeaders",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+        },
+        "app/(dashboard)/receipts/page": {
+          "moduleId": 63725,
+          "async": false,
+          "exportedName": "formatMetadataHeaders",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+        },
+        "app/(dashboard)/reports/page": {
+          "moduleId": 25338,
+          "async": false,
+          "exportedName": "formatMetadataHeaders",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+        },
+        "app/(dashboard)/transactions/page": {
+          "moduleId": 95022,
+          "async": false,
+          "exportedName": "formatMetadataHeaders",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+        },
+        "app/_not-found/page": {
+          "moduleId": 54725,
+          "async": false,
+          "exportedName": "formatMetadataHeaders",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+        },
+        "app/page": {
+          "moduleId": 23773,
+          "async": false,
+          "exportedName": "formatMetadataHeaders",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+        }
+      },
+      "layer": {
+        "app/(auth)/sign-in/[[...sign-in]]/page": "rsc",
+        "app/(auth)/sign-up/[[...sign-up]]/page": "rsc",
+        "app/(dashboard)/ai-advice/page": "rsc",
+        "app/(dashboard)/budgets/page": "rsc",
+        "app/(dashboard)/dashboard/page": "rsc",
+        "app/(dashboard)/receipts/page": "rsc",
+        "app/(dashboard)/reports/page": "rsc",
+        "app/(dashboard)/transactions/page": "rsc",
+        "app/_not-found/page": "rsc",
+        "app/page": "rsc"
+      },
+      "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js",
+      "exportedName": "formatMetadataHeaders"
+    },
+    "00ee6dad0316fe6d065664705ad20e390522dd7e36": {
+      "workers": {
+        "app/(auth)/sign-in/[[...sign-in]]/page": {
+          "moduleId": 89074,
+          "async": false,
+          "exportedName": "deleteKeylessAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/(auth)/sign-up/[[...sign-up]]/page": {
+          "moduleId": 22427,
+          "async": false,
+          "exportedName": "deleteKeylessAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/(dashboard)/ai-advice/page": {
+          "moduleId": 19782,
+          "async": false,
+          "exportedName": "deleteKeylessAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/(dashboard)/budgets/page": {
+          "moduleId": 25562,
+          "async": false,
+          "exportedName": "deleteKeylessAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/(dashboard)/dashboard/page": {
+          "moduleId": 18082,
+          "async": false,
+          "exportedName": "deleteKeylessAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/(dashboard)/receipts/page": {
+          "moduleId": 63725,
+          "async": false,
+          "exportedName": "deleteKeylessAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/(dashboard)/reports/page": {
+          "moduleId": 25338,
+          "async": false,
+          "exportedName": "deleteKeylessAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/(dashboard)/transactions/page": {
+          "moduleId": 95022,
+          "async": false,
+          "exportedName": "deleteKeylessAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/_not-found/page": {
+          "moduleId": 54725,
+          "async": false,
+          "exportedName": "deleteKeylessAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/page": {
+          "moduleId": 23773,
+          "async": false,
+          "exportedName": "deleteKeylessAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        }
+      },
+      "layer": {
+        "app/(auth)/sign-in/[[...sign-in]]/page": "action-browser",
+        "app/(auth)/sign-up/[[...sign-up]]/page": "action-browser",
+        "app/(dashboard)/ai-advice/page": "action-browser",
+        "app/(dashboard)/budgets/page": "action-browser",
+        "app/(dashboard)/dashboard/page": "action-browser",
+        "app/(dashboard)/receipts/page": "action-browser",
+        "app/(dashboard)/reports/page": "action-browser",
+        "app/(dashboard)/transactions/page": "action-browser",
+        "app/_not-found/page": "action-browser",
+        "app/page": "action-browser"
+      },
+      "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js",
+      "exportedName": "deleteKeylessAction"
+    },
+    "40e68efd2bc93f70dd2e6a7660cc7fa94ef7754b06": {
+      "workers": {
+        "app/(auth)/sign-in/[[...sign-in]]/page": {
+          "moduleId": 89074,
+          "async": false,
+          "exportedName": "syncKeylessConfigAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/(auth)/sign-up/[[...sign-up]]/page": {
+          "moduleId": 22427,
+          "async": false,
+          "exportedName": "syncKeylessConfigAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/(dashboard)/ai-advice/page": {
+          "moduleId": 19782,
+          "async": false,
+          "exportedName": "syncKeylessConfigAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/(dashboard)/budgets/page": {
+          "moduleId": 25562,
+          "async": false,
+          "exportedName": "syncKeylessConfigAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/(dashboard)/dashboard/page": {
+          "moduleId": 18082,
+          "async": false,
+          "exportedName": "syncKeylessConfigAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/(dashboard)/receipts/page": {
+          "moduleId": 63725,
+          "async": false,
+          "exportedName": "syncKeylessConfigAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/(dashboard)/reports/page": {
+          "moduleId": 25338,
+          "async": false,
+          "exportedName": "syncKeylessConfigAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/(dashboard)/transactions/page": {
+          "moduleId": 95022,
+          "async": false,
+          "exportedName": "syncKeylessConfigAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/_not-found/page": {
+          "moduleId": 54725,
+          "async": false,
+          "exportedName": "syncKeylessConfigAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/page": {
+          "moduleId": 23773,
+          "async": false,
+          "exportedName": "syncKeylessConfigAction",
+          "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        }
+      },
+      "layer": {
+        "app/(auth)/sign-in/[[...sign-in]]/page": "action-browser",
+        "app/(auth)/sign-up/[[...sign-up]]/page": "action-browser",
+        "app/(dashboard)/ai-advice/page": "action-browser",
+        "app/(dashboard)/budgets/page": "action-browser",
+        "app/(dashboard)/dashboard/page": "action-browser",
+        "app/(dashboard)/receipts/page": "action-browser",
+        "app/(dashboard)/reports/page": "action-browser",
+        "app/(dashboard)/transactions/page": "action-browser",
+        "app/_not-found/page": "action-browser",
+        "app/page": "action-browser"
+      },
+      "filename": "Desktop/NextJs-AiFT/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js",
+      "exportedName": "syncKeylessConfigAction"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "+56oFMoglhALXTdWDmCFu62P2COzqda+5wSLP6TwN5Y="
+}
